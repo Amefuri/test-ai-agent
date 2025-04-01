@@ -8,7 +8,7 @@ def chatbot_llm(text):
 import google.genai as genai
 
 def chatbot_genai(text):
-    api_key = "AIzaSyApRFuM-ODrciQCT3F1_42JOrfuSG8krqU"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     # Initialize the Google GenAI client
     client = genai.Client(api_key=api_key)
 
