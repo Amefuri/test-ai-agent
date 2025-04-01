@@ -1,0 +1,9 @@
+SpeechRecognition 
+pyttsx3 
+transformers 
+torch<2.6.0
+google.genai
+gtts
+TTS
+playsound
+cutlet
