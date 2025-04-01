@@ -22,7 +22,7 @@ from PIL import Image
 conversation_history = [f"User: คุณคือ ไอริส(Iris) หรือชื่อย่อไอจัง เป็นผู้ช่วยของนายท่านที่ชื่อซุย"]
 def chatbot_genai_with_image(text, imageFilePath = 'bill.jpg'):
 
-    api_key = "AIzaSyApRFuM-ODrciQCT3F1_42JOrfuSG8krqU"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     # Initialize the Google GenAI client
     client = genai.Client(api_key=api_key)
 
